@@ -18,27 +18,39 @@
 </head>
 <body>
 
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <div id="preloader"><div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="./index.html"><img id='navLogo' src="./src/images/logo.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
             <li class="nav-item"><a class="nav-link" href="./services.html">SERVICES</a></li>
-            <li class="nav-item"><a class="nav-link" href="./team.html">THE TEAM</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./team.html">THE TEAM</a></li>
             <li class="nav-item"><a class="nav-link" href="./about.html">ABOUT</a></li>
             <li class="nav-item"><a class="nav-link" href="./contact.html">CONTACT</a></li>
           </ul>
         </div>
       </nav>
 
+      <header>
+        <div class='picClass' id='teamPic'>
+          <h4>We Respond to Over 3,000 Alarms Each Year All Within a Matter of Minutes</h4>
+        </div>
+        <div id='compName'>S&E SECURITY LIMITED</div>
+        <div class='addInfo'>Dedicated to Protecting Businesses</div>
+        <div class='addInfo'>GPS Tracked Mobile Patrols</div>
+      </header>
 
-      <script src="./src/vendors/js/jquery-3.6.0.min.js"></script>
-      <script src="./src/vendors/js/bootstrap.bundle.min.js"></script>
-      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-      <script src="./src/js/script.js"></script>
+      <a id="back-to-top" href="#" class="btn btn-light btn-lg back_to_top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+    <script src="./src/vendors/js/jquery-3.6.0.min.js"></script>
+    <script src="./src/vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./src/js/script.js"></script>
     
 </body>
 </html>

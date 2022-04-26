@@ -6,7 +6,7 @@ $(window).on('load', function () {
     }
 });
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     $(window).scroll(function () {
             if ($(this).scrollTop() > 150) {
                 $('#back-to-top').fadeIn();
@@ -22,7 +22,7 @@ $(window).on('load', function () {
     });
 });
 
-document.getElementById('sendMail').addEventListener('click', function(e){
+/*document.getElementById('sendMail').addEventListener('click', function(e){
     let name = $('#name').val();
     let email = $('#email').val();
     let message = $('#message').val();

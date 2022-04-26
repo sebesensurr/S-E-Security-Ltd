@@ -18,14 +18,16 @@
 </head>
 <body>
 
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <div id="preloader"><div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="./index.html"><img id='navLogo' src="./src/images/logo.jpg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active" href="./index.html">HOME</a></li>
             <li class="nav-item"><a class="nav-link" href="./services.html">SERVICES</a></li>
             <li class="nav-item"><a class="nav-link" href="./team.html">THE TEAM</a></li>
             <li class="nav-item"><a class="nav-link" href="./about.html">ABOUT</a></li>
@@ -34,6 +36,23 @@
         </div>
       </nav>
 
+      <header>
+        <div class='picClass' id='homePic'>
+          <h4>We Respond to Over 3,000 Alarms Each Year All Within a Matter of Minutes</h4>
+        </div>
+        <div id='compName'>S&E SECURITY LIMITED</div>
+        <div class='addInfo'>Dedicated to Protecting Businesses</div>
+        <div class='addInfo'>GPS Tracked Mobile Patrols</div>
+      </header>
+
+      <div class='container'>
+        <p>S&E Security Ltd is a family owned company.  We provide a comprehensive range of professional security services in Bristol, Avonmouth, Clevedon and the South West. </p>
+        <p>Our professionalism, dedication, extensive experience and the desire to provide the best customer focused service, make us the preferred security provider to a multitude of companies throughout all business sectors, including many blue chip organisations. We have established an extremely high level of quality and service specifically created for each individual client. So whatever your individual security requirements are S&E Security Ltd is more than capable of meeting them.</p>
+        <p>It is our mission to prevent crime against commercial enterprise. We want to help our clients keep their businesses secure. Due to our ISO9001 accreditation, where we are recognised on their Approved Contractor Scheme (ACS), we are in an ideal position to do just that. As a result, our client retention is probably the highest within the security industry. Indeed; some of our clients have been with us since our first day of trading.</p>
+        <p>We currently protect a large number of industrial and trading etsates, in addition to an ever increasing portfolio of business and residential clients across the South West area; including areas within Bristol, Avonmouth, Wiltshire and Somerset, being responsible for the protection of over 5 billion pounds worth of property and assets for an ever expanding portfolio of clients.</p>
+      </div>
+
+      <a id="back-to-top" href="#" class="btn btn-light btn-lg back_to_top" role="button"><i class="fas fa-chevron-up"></i></a>
 
     <script src="./src/vendors/js/jquery-3.6.0.min.js"></script>
     <script src="./src/vendors/js/bootstrap.bundle.min.js"></script>
