@@ -4,6 +4,14 @@ body {
     background-color: #fff2f2;
 }
 
+.row {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 #navbar {
     width: 100%;
     z-index: 10;
@@ -11,7 +19,6 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #b8c2ce;
-    border-bottom: 2px solid black;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,6 +33,7 @@ body {
 
 .picClass{
     height: 300px;
+    border: 2px solid black;
 }
 
 #homePic {
@@ -62,23 +70,139 @@ h4 {
 
 #compName {
     margin-top: 6px;
-    color: #fff2f2;
-    background-color: #141759;
+    padding: 0 1em;
+    color: #cf1c08;
     font-size: 2em;
     text-align: center;
     font-weight: bold;
 }
 
 .addInfo {
-    margin-top: 2px;
+    margin-bottom: 3px;
     color: #fff2f2;
-    background-color: black;
+    background-color: #141759;
     font-size: 1.5em;
     text-align: center;
 }
 
 .container {
     margin-top: 24px;
+}
+
+.serv {
+    text-align: center;
+    background: #ffff00;
+}
+
+.serv a div p {
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+.serv a div{
+    padding-top: 4px;
+}
+
+.serv a :hover {
+    color: white;
+    background: #141759;
+}
+
+.serv p {
+    margin-bottom: 0;
+}
+
+.picDiv {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.picBubble {
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #141759;
+}
+
+hr {
+    width: 80%;
+    color: #141759;
+}
+
+.contacts {
+    background: black;
+    color: #b8c2ce;
+    text-align: right;
+    line-height: normal;
+    padding: 12px 24px;
+    padding-left: 36px;
+    margin-bottom: 0;
+    width: fit-content;
+    float: right;
+}
+
+.contacts p {
+    margin-bottom: 0;
+    line-height: 1.5em;
+}
+
+.contacts p a {
+    color: #b8c2ce;
+}
+
+.contacts p a:hover {
+    color: #c2573c;
+}
+
+.compInfo {
+    margin: 48px 0px;
+}
+
+h5 {
+    color: #cf1c08;
+    font-weight: bold;
+}
+
+.col-sm-6 p {
+    margin-bottom: 6px;
+}
+
+#map {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px darkgray;
+    min-height: 200px;
+}
+
+h2 {
+    color: #141759;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contactForm .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.form-control {
+    border: 1px solid black;
+    box-shadow: 7px 7px 13px darkgray;
+}
+
+#sendMail {
+    color: white;
+    background: #141759;
+    display: block;
+    margin: 24px auto;
+}
+
+#sendMail:hover {
+    box-shadow: 7px 7px 13px darkgray;
+    border: 1px solid #141759;
+    color: #141759;
+    background: lightskyblue;
 }
 
 #back-to-top {

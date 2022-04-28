@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (min-height: 520px) {
     #navLogo {
-        height: 100px;
+        height: 70px;
     }
 
     .navbar-nav {
@@ -11,5 +11,14 @@
         padding-top: 10%;
         font-size: 2em;
     }
+
+    .serv a div p {
+        text-decoration: none;
+    }
+
+    .picDiv {
+        text-align: right;
+    }
+        
 
 }

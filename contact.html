@@ -37,13 +37,52 @@
       </nav>
 
       <header>
+        <div class='contacts'>
+          <p>Tel: <a href='tel: 07497 193 450' target='_bank'>07497 193 450</a></p>
+          <p>Email: <a href="mailto: clive@sandesecurity.co.uk" target='_blank'>clive@sandesecurity.co.uk</a></p>
+        </div>
         <div class='picClass' id='homePic'>
-          <h4>We Respond to Over 3,000 Alarms Each Year All Within a Matter of Minutes</h4>
+          <h4>Providing Security Services in Bristol, Avonmouth, Clevedon and Throughout the South West</h4>
         </div>
         <div id='compName'>S&E SECURITY LIMITED</div>
-        <div class='addInfo'>Dedicated to Protecting Businesses</div>
-        <div class='addInfo'>GPS Tracked Mobile Patrols</div>
+        <div class='addInfo'>Contact Us</div>
       </header>
+
+      <div class='container'>
+        <div>
+          <p>If you would like to know more about how we can protect your business, your industrial estate or your home, please do not hesitate to contact us.</p>
+          <p>We welcome all enquiries and provide no obligation quotations.</p>
+          <p>A telephone call will put you in immediate contact with a member of our team, or alternatively send us an email.</p>
+          <p>Our office hours are 0900 to 1700hrs Monday to Friday.</p>
+        </div>
+        <div class='row compInfo'>
+          <div class='col-sm-6'>
+            <h5>S&E SECURITY LIMITED</h5>
+            <p>The Hidden Cottage</p>
+            <p>High Street</p>
+            <p>Coleford, Radstock</p>
+            <p>BA3 5LS</p>
+            <p><i class="fas fa-at"></i><a href="mailto: clive@sandesecurity.co.uk" target='_blank'> clive@sandesecurity.co.uk</a></p>
+            <p><i class="fas fa-mobile-alt"></i><a href='tel: +447497193450' target='_blank'> +447497193450</a></p>
+          </div>
+          <div id='map' class='col-sm-6'></div>
+        </div>
+        <h2>Queries</h2>
+        <form id="contactForm" role="form" class="mt-4">
+          <div class="row">
+              <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name/Company" required="">
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" id="email" placeholder="Your Email" required="">
+              </div>
+          </div>
+          <div class="form-group mt-3">
+              <textarea class="form-control" id="message" rows="5" placeholder="Message" required=""></textarea>
+          </div>
+          <button class="btn" id="sendMail" type="submit">Send Message</button>
+      </form>
+      </div>
 
       <a id="back-to-top" href="#" class="btn btn-light btn-lg back_to_top" role="button"><i class="fas fa-chevron-up"></i></a>
 
@@ -51,6 +90,7 @@
     <script src="./src/vendors/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./src/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAodosbhSvSIDpHlNXi5KwyDtouq5UNP0&callback=initMap&libraries=&v=weekly"async></script>
     
 </body>
 </html>

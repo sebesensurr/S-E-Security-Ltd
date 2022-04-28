@@ -49,7 +49,7 @@ $(document).ready(function(){
             }
         });
     }
-});
+});*/
 
 function initMap() {
     const sande = { lat: 51.23685, lng: -2.45123 };
@@ -61,4 +61,4 @@ function initMap() {
       position: sande,
       map: map,
     });
-}*/
+}
