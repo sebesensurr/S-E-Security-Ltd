@@ -2,6 +2,7 @@ body {
     font-family: 'Mukta', sans-serif;
     /* background-color: #c3b1e1; */
     background-color: #fff2f2;
+    padding-bottom: 40px;
 }
 
 .row {
@@ -10,25 +11,6 @@ body {
 
 a:hover {
     text-decoration: none;
-}
-
-#navbar {
-    width: 100%;
-    z-index: 10;
-    transition: top 0.3s;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #b8c2ce;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(20, 23, 89, 0.8);
-    float: right;
-}
-
-#navLogo {
-    height: 50px;
-    width: auto;
 }
 
 .picClass{
@@ -43,19 +25,19 @@ a:hover {
 }
 
 #servPic {
-    background: url('../images/patrol.jpg');
+    background: url('../images/sec-guyD.jpg');
     background-position: center;
     background-size: cover;
 }
 
 #teamPic{
-    background: url('../images/manned.jpg');
+    background: url('../images/Meeting-roomD.jpg');
     background-position: center;
     background-size: cover; 
 }
 
 #aboutPic{
-    background: url('../images/Key-Holding.jpg');
+    background: url('../images/certD.jpg');
     background-position: center;
     background-size: cover; 
 }
@@ -88,6 +70,34 @@ h4 {
 .container {
     margin-top: 24px;
 }
+
+#navbar {
+    width: 100%;
+    z-index: 10;
+    transition: top 0.3s;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #b8c2ce;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(20, 23, 89, 0.8);
+    float: right;
+}
+
+#navLogo {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-dark .navbar-toggler {
+    border: 2px solid #141759;
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
+
+
+/* Services */
 
 .serv {
     text-align: center;
@@ -129,6 +139,14 @@ hr {
     width: 80%;
     color: #141759;
 }
+
+/* About */
+
+#iso {
+    float: left;
+    margin-right: 16px;
+}
+/* Contact */
 
 .contacts {
     background: black;
